@@ -1,0 +1,29 @@
+{
+  "root": true,
+  "extends": "@fullstacksjs/tsconfig/react",
+  "include": [
+    "pages/**/*",
+    "src/**/*",
+    "public/**/*",
+    "typings/**/*",
+    "next-env.d.ts"
+  ],
+  "exclude": ["node_modules", "build", ".next"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "$sharedComponents/*": ["src/components/shared/*"],
+      "$assets/*": ["src/components/assets/*"],
+      "$components/*": ["src/components/*"],
+      "$theme/*": ["src/theme/*"],
+      "$utils/*": ["src/utils/*"],
+      "$HOC/*": ["src/HOC/*"],
+      "$lib/*": ["src/lib/*"],
+      "$styles/*": ["src/styles/*"],
+      "$src/*": ["src/*"]
+    },
+    "noPropertyAccessFromIndexSignature": false,
+    "incremental": true,
+    "jsx": "preserve"
+  }
+}

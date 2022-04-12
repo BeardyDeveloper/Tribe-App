@@ -1,0 +1,15 @@
+export { default as AfterLineSvg } from './AfterLine.svg';
+export { default as BankAccountSvg } from './icons/BankAccount.svg';
+export { default as BillPaymentsSvg } from './icons/BillPayments.svg';
+export { default as CloseSvg } from './icons/Close.svg';
+export { default as CorporateCardsSvg } from './icons/CorporateCards.svg';
+export { default as DifferenceSvg } from './icons/Difference.svg';
+export { default as EmailSvg } from './icons/Email.svg';
+export { default as EmployeeDatabaseSvg } from './icons/EmployeeDatabase.svg';
+export { default as FlagSvg } from './icons/Flag.svg';
+export { default as HRSvg } from './icons/HR.svg';
+export { default as LogoSvg } from './icons/Logo.svg';
+export { default as MenuSvg } from './icons/Menu.svg';
+export { default as OnBoardingSvg } from './icons/OnBoarding.svg';
+export { default as PayRollSvg } from './icons/PayRoll.svg';
+export { default as ProcessSvg } from './icons/Process.svg';
